@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="maruos"
+           fetch="https://github.com/maruos"
+           revision="nougat-mr2-release" />
+
+  <remove-project path="android/platform/packages/apps/Settings" name="android_platform_packages_apps_Settings" />
+  <remove-project path="android/platform/frameworks/base" name="android_platform_frameworks_base" />
+  <remove-project path="android/platform/frameworks/native" name="android_platform_frameworks_native" />
+  <project path="vendor/maruos" name="vendor_maruos" remote="maruos" />
+  <project path="external/lxc" name="platform_external_lxc" remote="maruos" />
+  <project path="android/platform/packages/apps/Settings" name="android_platform_packages_apps_Settings" remote="maruos" />
+  <project path="android/platform/frameworks/native" name="android_platform_frameworks_native" remote="maruos" />
+  <project path="android/platform/frameworks/base" name="android_platform_frameworks_base" remote="maruos" />
+
+
+
+</manifest>
